@@ -27,7 +27,7 @@ Get notification every hour on your airtime balance, data bundle balance and ext
 Paste this:
 
 ```bash
-1 */1 * * * python3 /path/to/balance.py > /path/to/log-file.log
+1 */1 * * * /usr/bin/python3 /path/to/balance.py > /path/to/log-file.log
 ```
 
 ## Windows
@@ -45,9 +45,9 @@ License [MIT](LICENSE)
 
 Have fun...
 
-*I will find a better way ;))
+>> *I will find a better way ;))
 
-PS: This repo is in no way associated with [Telkom KE](http://telkom.co.ke/) and will definitely be affected by changes in their customer portal.
+>> PS: This repo is in no way associated with [Telkom KE](http://telkom.co.ke/) and will definitely be affected by changes in their customer portal.
 
 
 
